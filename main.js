@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     // Typing animation
-    const roles = ["Frontend Developer.", "Programmer.", "Web Developer", "MERN Developer"];
+    const roles = ["Full Stack Developer.", "Programmer.", "Web Designer", "MERN Developer"];
     let currentRole = 0;
     let charIndex = 0;
     let isDeleting = false;
