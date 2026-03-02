@@ -1,63 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ajay Sharma | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body >
+
+<body>
+
+  <!-- Background Effects -->
   <div class="background-layers">
     <div class="stars"></div>
     <div class="twinkling"></div>
     <div class="shooting-stars"></div>
   </div>
+
+  <!-- ================= HEADER ================= -->
   <header>
-    <nav class="navbar">
-      <h1><span>Ajay</span>/Sharma</h1>
-    
-      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-    
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <!-- <li><a href="#experience">Experience</a></li> -->
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li>
-          <a class="github-btn" href="https://github.com/AjaySharma0988" target="_blank">GitHub Profile</a>
-        </li>
-      </ul>
-    </nav>
-    
-  </header>
+  <nav class="navbar">
+
+    <h1 class="logo"><span>Ajay</span>/Sharma</h1>
+
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <a class="github-btn" href="https://github.com/AjaySharma0988" target="_blank">
+          GitHub Profile
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+</header>
 
   <main>
-    <section id="about" >
-      <section id="about" style="padding: 0 40px;"></section>
-       <img src="assets\ProfilPic\ajay.png.png" alt="Profile Picture" class="profile-pic">
-       <h1>Hi, I am</h1>
-       <h1 class="name-highlight">Ajay Sharma</h1>
-      <h2>I am a <span class="typing-text" style="color: #a855f7;"></span></h2>
-     
-      <p>
-        Enthusiastic BCA student with a strong <br>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section" style="text-align: left;">
+      <img src="assets/ProfilPic/ajay.png.png" alt="Ajay Sharma" class="profile-pic" />
+
+      <h1>Hi, I am</h1>
+      <h1 class="name-highlight">Ajay Sharma</h1>
+      <h2>I am a <span class="typing-text" style="color:#a855f7;"></span></h2>
+
+      <p> 
+        Enthusiastic MCA student with a strong <br>
         passion for technology and management, <br>
         seeking a role as a Developer.<br>
-         Eager to leverage my skills and <br>
-         experiences in a professional setting <br>
-         while contributing to and learning from <br>
-         the organization.
-      </p>
-      <a href="assets\resume.pdf.pdf" class="btn" target="_blank">Check Resume</a>
-      
+        Eager to leverage my skills and <br>
+        experiences in a professional setting <br>
+        while contributing to and learning from <br>
+        the organization. 
+      </p> 
+
+      <a href="assets/resume.pdf.pdf" class="btn" target="_blank">Check Resume</a>
     </section>
 
-
+    <!-- ================= SKILLS ================= -->
     <section id="skills" class="section">
       <h2>Skills</h2>
       <p>My skill set includes:</p>
+
       <div class="skill-container-grid">
+
+        <!-- Frontend -->
         <div class="skill-group">
           <h3 class="skill-title">Frontend</h3>
           <div class="skill-icons">
@@ -83,7 +99,8 @@
             </div>
           </div>
         </div>
-    
+
+        <!-- Backend -->
         <div class="skill-group">
           <h3 class="skill-title">Backend</h3>
           <div class="skill-icons">
@@ -97,7 +114,8 @@
             </div>
           </div>
         </div>
-    
+
+        <!-- Others -->
         <div class="skill-group">
           <h3 class="skill-title">Others</h3>
           <div class="skill-icons">
@@ -115,38 +133,19 @@
             </div>
           </div>
         </div>
+
       </div>
     </section>
-    
 
-    <!-- <section id="experience" class="section timeline">
-      <h2>Experience</h2>
-      <p class="section-subtitle">My work experience as a software engineer and working on different projects.</p>
-      <div class="timeline-item">
-        <div class="timeline-icon"></div>
-        <div class="timeline-content">
-          <h3>Frontend Engineer Intern - Alfabeto Global</h3>
-          <p>June 2024 – Sep 2024</p>
-          <p>Designed and launched an Exam platform... <em>(full content preserved in original text)</em></p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-icon"></div>
-        <div class="timeline-content">
-          <h3>Open Source Contributor - Hacktober Fest '22</h3>
-          <p>Oct 22 – Oct 22</p>
-          <p>Contributed to different open-source projects...</p>
-        </div>
-      </div>
-    </section> -->
-
+    <!-- ================= PROJECTS ================= -->
     <section id="projects" class="section">
       <h2>Projects</h2>
       <p>I have worked on a wide range of projects. Here are a few highlights:</p>
+
       <div class="project-grid">
-    
+
         <div class="project-card">
-          <img src="assets\projects\foodi.png.jpg" alt="Foodi App Screenshot" class="project-img" />
+          <img src="assets/projects/foodi.png.jpg" alt="Foodi App Screenshot" class="project-img" />
           <div class="tech-stack">
             <span class="badge">ReactJS</span>
             <span class="badge">MongoDB</span>
@@ -154,9 +153,12 @@
             <span class="badge">CSS</span>
           </div>
           <h3 class="project-title">Foodi</h3>
-          <p class="project-desc">Whipped up a food delivery app 🍕 with React, JS, and MongoDB — real-time tracking, smart search, secure payments, and Bcrypt-protected logins! 🔒🚀.</p>
+          <p class="project-desc">
+            Food delivery app with real-time tracking, smart search,
+            secure payments, and Bcrypt-protected logins.
+          </p>
         </div>
-    
+
         <div class="project-card">
           <img src="assets/projects/portfolio.png" alt="Portfolio Screenshot" class="project-img" />
           <div class="tech-stack">
@@ -165,9 +167,11 @@
             <span class="badge">CSS</span>
           </div>
           <h3 class="project-title">My Portfolio</h3>
-          <p class="project-desc">A personal portfolio website to showcase my skills and projects.</p>
+          <p class="project-desc">
+            A personal portfolio website to showcase my skills and projects.
+          </p>
         </div>
-    
+
         <div class="project-card">
           <img src="assets/projects/shencare.png" alt="ShenCare Screenshot" class="project-img" />
           <div class="tech-stack">
@@ -176,78 +180,148 @@
             <span class="badge">ExpressJS</span>
           </div>
           <h3 class="project-title">ShenCare</h3>
-          <p class="project-desc">Created a calming mental health app 🧘‍♀️ with React, Node.js & Firebase — features guided meditations, mood tracking, breathing exercises, real-time sync, and secure logins with Bcrypt 🔐💙.</p>
+          <p class="project-desc">
+            Mental health app with guided meditations, mood tracking,
+            breathing exercises, and secure login system.
+          </p>
         </div>
-    
-      </div>
-    </section>
-    
 
-    <section id="education" class="section timeline">
-      <h2>Education</h2>
-      <p class="section-subtitle">My education has been a journey of self-discovery and growth.</p>
-      <div class="timeline-item">
-        <div class="timeline-icon"></div>
-        <div class="timeline-content">
-          <h3>Kalinga University 
-             - BCA, Computer Application</h3>
-          <p>Jun 2022 – Jun 2025</p>
-          <strong>Grade: 8.14 CGPA</strong>
-          <!-- <p>Completed courses in DSA, OOPs, OS, CN, DBMS...</p> -->
-        </div><br>
-        <div class="timeline-content">
-          <h3>Delhi Public School - Raigarh, Chhattisgarh</h3>
-          <p>Mar 2020 – Mar 2022</p>
-          <!-- <strong>Grade: 8.14 CGPA</strong> -->
-          <p>Completed courses 10,+2</p>
-        </div>
       </div>
     </section>
 
-    <!-- <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Feel free to reach out to me for any questions or opportunities!</p>
-      <form class="contact-form">
-        <input type="email" placeholder="Your Email" required>
-        <input type="text" placeholder="Your Name" required>
-        <input type="text" placeholder="Subject" required>
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main> -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Feel free to reach out to me through any of the platforms below!</p>
-  
-    <div class="contact-details">
-      <p><strong>📧 Email:</strong> <a href="mailto:Ajsharma0988@gmail.com">Ajsharma0988@gmail.com</a></p>
-      <p><strong>📱 Phone:</strong> +91-9669500987</p>
-      <p><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/ajay-sharma-17aa02287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">AjaySharma</a></p>
-      <p><strong>📸 Instagram:</strong> <a href="https://www.instagram.com/ajay._.sharma__?igsh=N3BzaW83Y2lkY2xy" target="_blank">@Ajay._.sharma__</a></p>
-    </div>
-  </section>
+   <!-- ================= EDUCATION ================= -->
+<section id="education" class="section education-section">
+  <h2>Education Journey</h2>
+  <p class="section-subtitle">
+    My academic path and growth over the years.
+  </p>
 
-  <footer>
-    <p>Ajay Sharma</p>
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/ajay-sharma-17aa02287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> |
-       <a href="https://github.com/AjaySharma0988">GitHub</a> |
-       <a href="mailto:Ajsharma0988@gmail.com" class="email-link">Ajsharma0988@gmail.com</a>
-    <div class="social-icons">
-     <h3> <a href="#about">About</a> |
-      <a href="#skills">Skills</a> |
-      <!-- <a href="#experience">Experience</a> -->
-      <a href="#projects">Projects</a> |
-      <a href="#education">Education</a>
-    </h3>
+  <div class="education-wrapper">
+
+    <!-- Left Card -->
+    <div class="edu-card highlight">
+      <h3>GL Bajaj Institute of Technology and Management</h3>
+      <span>MCA (Computer Application)</span>
+      <p>Jun 2025 – Jun 2027</p>
     </div>
-   
+
+    <!-- Center Card (Highlighted) -->
+    <div class="edu-card">
+      <h3>Kalinga University</h3>
+      <span>BCA (Computer Application)</span>
+      <p>Jun 2022 – Jun 2025</p>
+      <strong>Grade: 8.14 CGPA</strong>
+    </div>
+
+    <!-- Right Card -->
+    <div class="edu-card">
+      <h3>Delhi Public School - Raigarh</h3>
+      <span>Senior Secondary (10+2)</span>
+      <p>Mar 2020 – Mar 2022</p>
+    </div>
+
   </div>
-    
-    <p>&copy; 2024 Ajay Sharma. All rights reserved.</p>
-  </footer>
+</section>
+
+  <!-- ================= ULTRA PREMIUM CONTACT ================= -->
+<section id="contact"  class="contact-modern">
+
+  <div class="contact-container">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-info">
+
+      <h2>GET IN <span>TOUCH</span></h2>
+
+      <p class="contact-text">
+        Let's work <strong>Together</strong><br>
+        Have a project or idea?<br>
+        I’d love to hear from you.
+      </p>
+
+      <div class="info-list">
+
+  <a href="tel:+919669500987" class="info-item">
+    <span>📞</span>
+    <p>+91-9669500987</p>
+  </a>
+
+  <a href="mailto:Ajsharma0988@gmail.com?subject=Contact from Portfolio&body=Hello Ajay," class="info-item">
+  <span>📧</span>
+  <p>Ajsharma0988@gmail.com</p>
+</a>
+
+  <a href="https://www.linkedin.com/in/ajay-sharma-17aa02287" target="_blank" class="info-item">
+    <span>💼</span>
+    <p>LinkedIn / Ajay Sharma</p>
+  </a>
+
+  <a href="https://www.instagram.com/ajay._.sharma__" target="_blank" class="info-item">
+    <span>📸</span>
+    <p>@Ajay._.sharma__</p>
+  </a>
+
+</div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="contact-form-wrapper">
+
+      <form class="contact-form" id="contactForm">
+
+        <h3>Send me a message</h3>
+
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send Message →</button>
+        <p id="successMessage" class="success-message">
+          ✅ Message sent! I’ll get back to you soon.
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+  </main>
+
+ <!-- ================= FOOTER ================= -->
+<footer>
+
+  <div class="footer-container">
+
+    <h3>Ajay Sharma</h3>
+
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/ajay-sharma-17aa02287" target="_blank">
+        LinkedIn
+      </a>
+
+      <a href="https://github.com/AjaySharma0988" target="_blank">
+        GitHub
+      </a>
+
+      <a href="mailto:Ajsharma0988@gmail.com">
+        Email
+      </a>
+    </div>
+
+    <p class="footer-text">
+      © 2024 Ajay Sharma. All rights reserved.
+    </p>
+
+  </div>
+
+</footer>
 
   <script src="main.js"></script>
+
 </body>
 </html>
